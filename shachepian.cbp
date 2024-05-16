@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="shachepian" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/shachepian" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/shachepian" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="rec/ImageAnnotator.cpp" />
+		<Unit filename="rec/ImageAnnotator.h" />
+		<Unit filename="rec/LineDistanceCalculator.cpp" />
+		<Unit filename="rec/LineDistanceCalculator.h" />
+		<Unit filename="rec/OCRProcessor.cpp" />
+		<Unit filename="rec/OCRProcessor.h" />
+		<Unit filename="rec/RustDetection.cpp" />
+		<Unit filename="rec/RustDetection.h" />
+		<Unit filename="rec/basefunc.h" />
+		<Unit filename="rec/circle.cpp" />
+		<Unit filename="rec/circle.h" />
+		<Unit filename="rec/contour.cpp" />
+		<Unit filename="rec/contour.h" />
+		<Unit filename="rec/image_processing.cpp" />
+		<Unit filename="rec/image_processing.hpp" />
+		<Unit filename="rec/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
